@@ -1,3 +1,4 @@
+import { colors } from "../../../constants/Colors";
 import { fonts } from "../../../constants/Fonts";
 import { StyleSheet } from "react-native";
 
@@ -13,7 +14,7 @@ export const styles = StyleSheet.create({
   },
   itemText: {
     fontSize: 14,
-    color: "white",
+    color: colors.laheluWhite,
   },
   itemTextActive: {
     fontSize: 18,
