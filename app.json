@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "lahelu",
+    "slug": "lahelu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/lahelu.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/lahelu.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a1a"
+    },
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.mhendhys.lahelu"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5001c61d-5e22-4020-a902-ad12f72df833"
+      }
+    }
+  }
+}

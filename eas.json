@@ -1,0 +1,28 @@
+{
+  "cli": {
+    "version": ">= 12.6.2",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "ANDROID_HOME": "/Users/mochamadhendysumaryo/Library/Android/sdk",
+        "ANDROID_NDK_HOME": "/Users/mochamadhendysumaryo/Library/Android/sdk/ndk/28.0.12433566"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
